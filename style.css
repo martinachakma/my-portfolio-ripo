@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+.navheader{ 
+            width: 100vw;      
+            height: 100vh;     
+            background-color: cadetblue;
+           }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;100px;
+       }
+       nav ul li{
+        display: inline-block;}
+     a 
+        { text-decoration: none;
+          padding-right: 20px;
+        }
+nav ul li a{
+                 font-width:bold;
+                 color: rgb(187, 186, 186);
+                }
+.logo{ font-size: 30px;
+           font width: bold;
+           cursor:pointer;
+        
+        }
+  .logo::first-letter{
+    font-size: 40px;
+    border: 2px solid black;
+    border-right:transparent;
+    color: orange;
+  }
+
+  .navbtn{
+               background-color: orange;
+               padding: 10px;20px;
+               border-radius:15px;
+               color:white;
+               font-weight:700;
+               text-transform:uppercase;
+                 }
+  .navbtn:hover{
+               background-color: white;
+               color: orange;
+               }
+    
+  .aboutme{
+           position: absolute;
+           top: 40%;
+           left: 12%;
+           }
+    .aboutme h1{
+            font-size: 60px;
+            font-weight: 800;
+            font-height:100px;
+           }
+   .aboutme h1 span{
+                 color: orange;
+                 font-size: 90px;
+                }
+    .aboutme p{
+          font-size: 22px;
+          width: 70%;
+               }
+   .image{
+      position: absolute;
+      top: 20%;
+      left: 50%;
+    }
+    .image img{
+      border-radius:50px;
+    }
+    
+    *{
+      margin: 0px;
+      padding: 0px;
+      
+    }
+    .aboutmyself{
+      
+      position: absolute;
+      width: 100vw;
+      height: 100vh;
+      background-color: dodgerblue;
+      
+      font-size: 38px;
+      padding: 10px;
+      padding-left: 45%;
+      padding-top: 10%;
+
+                }
+    
+    .aboutmyself h1 span{
+      color: orange;
+      font-size: 68px;
+    }
+    .aboutmyself h4{
+      color: white;
+      font-size: 26px;
+    }
+    .aboutmyself p{
+
+      font-size: 28px;
+      padding: 5px;
+      font-height:100px;
+      width:37%
+    }
+    .navbtn1{
+      background-color: orange;
+               padding:10px;100px;
+               border:none;
+               border-radius:15px;
+               color:white;
+               font-size:25px;
+               
+               
+               
+                             
+               
+
+    }
+
+    .img1{
+      position: absolute;
+      top: 120%;
+      right: 60%;
+      }
+    .img1 img{
+       border-radius: 30px;
+    }
+      
+        
+  
